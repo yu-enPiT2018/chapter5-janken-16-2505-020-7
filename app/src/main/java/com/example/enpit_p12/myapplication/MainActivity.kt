@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() { //test
 
         val pref = PreferenceManager.getDefaultSharedPreferences(this)
         val editor = pref.edit() //test now
-        editor.clear().apply()
+        editor.clear().apply()//testing
     }
 
     fun onJankenButtonTapped(view: View?) {
