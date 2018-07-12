@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         pa.setOnClickListener { onJankenButtonTapped(it) }
 
         val pref = PreferenceManager.getDefaultSharedPreferences(this)
-        val editor = pref.edit()
+        val editor = pref.edit() // test2
         editor.clear().apply()
     }
 
